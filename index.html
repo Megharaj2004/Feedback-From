@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1><i class="fa-regular fa-chess-king"></i>&nbsp;<span id="raj">Raj</span><span id="hotels">Hotels</span></h1>
+    <br>
+    <span id="firstline">Feedback on your stay with us</span>
+    <div id="container">
+        <div id="secondline">
+        <span>
+            <i class="fa-solid fa-clock"></i>
+        </span>
+        <span>It only takes one minute!</span>
+        <br></div>
+        <div id="actualform">
+            <form action="thankyou.html">
+        <div id="nameheading">
+        <span><i class="fa-solid fa-user"></i></span>
+        <span>Name</span><br></div>
+        <input type="text" name="name" required placeholder="Enter name">
+        <br>
+        <div id="emailheading">
+        <span>
+            <i class="fa-solid fa-envelope"></i>
+        </span>
+        <span>Email Address</span>
+        <br>
+        </div>
+        <input type="email" name="email" id="email" placeholder="Enter email" required>
+        <br>
+        <div id="phoneheading">
+        <span>
+            <i class="fa-solid fa-phone"></i>
+        </span>
+        <span>Phone No.</span>
+        <br></div>
+        <input type="number" name="number" id="number" placeholder="Enter phone no.">
+        <br>
+        <div id="satisfyline">
+        <span>
+            <i class="fa-solid fa-face-smile"></i>
+        </span>
+        <span>Are you satisfied with our service</span>
+        <br></div>
+        <div id="yesnoline">
+        <input type="radio" name="satisfy" id="yes" required>Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input type="radio" name="satisfy" id="no" required>No
+        <br></div>
+        <div id="suggestionline">
+        <span>
+            <i class="fa-solid fa-comments"></i>
+
+        </span>
+        <span>Write your suggestions</span>
+        <br></div>
+        <textarea name="suggestions" id="suggestions" cols="38" rows="6" placeholder="Feel free to write any suggestions..."></textarea>
+        <br>
+        <input type="submit" value="Submit" id="submitbtn">
+        </div>
+    </div>
+</form>
+<footer>&copy2024 RajHotels | Megharaj. All rights reserved.</footer>
+</body>
+</html>
